@@ -1,0 +1,66 @@
+nav{
+    background-color: #0d2022;
+    color: white;
+    top: 0;
+    position: sticky;
+    padding: 20px;
+    justify-content:space-between;
+    border-bottom: 1px solid rgb(71, 105, 100);
+    display: flex;
+    
+   
+}
+
+li button{
+  border: none;
+  background-color: #0d2022;
+  color: white;
+  padding: 10px 6px;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+li a {
+   
+    color: white;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    font-family:'Ubuntu', sans-serif;
+    letter-spacing: 1px;
+
+  }
+button:hover{
+  border-bottom: 1px solid white;
+}
+ 
+ .logo{
+  height:40px;
+  width: 40px;
+  
+ }
+
+  @media only screen and (max-width: 600px) {
+    ul{
+      flex-flow: column nowrap;
+      text-align: center;
+      position: fixed;
+      right: 0;
+      background-color: #0d2022;
+      display: none;
+    }
+   
+   
+   
+
+    li{
+      padding: 10px;
+    }
+  }

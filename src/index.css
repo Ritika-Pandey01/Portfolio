@@ -2,5 +2,10 @@
 body {
   margin: 0;
   font-family:'Inter', sans-serif;
+  background-color: #1D5C63;
+  
 }
 
+* {
+  box-sizing: border-box;
+}
