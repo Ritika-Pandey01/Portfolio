@@ -24,17 +24,44 @@
     flex-direction: row;
     font-size: 30px;
     text-align: center;
+    top:40%;
 }
 .flex-item-left {
-    background-color: #f1f1f1;
-    padding: 10px;
+    background-color:transparent;
+    padding: 100px 40px;
     flex: 50%;
+   
+
+    
+    
+  }
+
+  #intro{
+
+    border: 1px solid;
+    border-radius: 10px;
+        padding: 10px;
+        box-shadow: 5px 10px;
+        margin-top: 40px;
+      
   }
   .flex-item-right {
-    background-color: dodgerblue;
+    background-color: transparent;
     padding: 10px;
+    margin: 8%;
+    
     flex: 50%;
+    
   }
+  .imageP{
+    padding:40px 40px 0 40px;
+    background-color: rgba(223, 246, 255,0.1);
+    border-radius: 10px;
+  }
+  .imageP > img{
+    width: 80%;
+  }
+  
 
   @media (max-width: 600px) {
     .content {
