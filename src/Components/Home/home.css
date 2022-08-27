@@ -1,0 +1,51 @@
+.bg {
+  animation:slide 3s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, rgb(19, 99, 223) 50%, rgb(71, 181, 255) 50%);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg1 {
+  animation-direction:alternate-reverse;
+  animation-duration:4s;
+}
+
+.bg2 {
+  animation-duration:5s;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+.flex-item-left {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 50%;
+  }
+  .flex-item-right {
+    background-color: dodgerblue;
+    padding: 10px;
+    flex: 50%;
+  }
+
+  @media (max-width: 600px) {
+    .content {
+      flex-direction: column;
+    }
+  }
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}

@@ -37,9 +37,7 @@ function RightNav({hamburger}) {
                 <li>
                     <button><a href="#">SOCIALS</a></button>
                 </li>
-                <li>
-                    <button><a href="#">RESUME</a></button>
-                </li>
+            
             </Ul>
     </>
   )
