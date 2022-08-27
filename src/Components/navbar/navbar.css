@@ -17,15 +17,7 @@ li button{
   color: white;
   padding: 10px 6px;
 }
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-end;
-}
+
 li a {
    
     color: white;
@@ -48,17 +40,6 @@ button:hover{
  }
 
   @media only screen and (max-width: 600px) {
-    ul{
-      flex-flow: column nowrap;
-      text-align: center;
-      position: fixed;
-      right: 0;
-      background-color: #0d2022;
-      display: none;
-    }
-   
-   
-   
 
     li{
       padding: 10px;
