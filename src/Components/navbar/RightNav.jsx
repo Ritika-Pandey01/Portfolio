@@ -10,7 +10,19 @@ list-style: none;
     display: flex;
     flex-flow: row nowrap;
  @media only screen and (max-width: 600px) {
+  padding:10px;
+      flex-flow: column nowrap;
+      text-align: center;
+      position: fixed;
+      right: 0;
+      background-color: #0d2022;
+      width:200px;
+      transform: ${({hamburger})=>hamburger?'translateX(0)':'translateX(100%)'};
     
+ }
+ @media only screen and (max-width: 760px) {
+    top:40px;
+      padding:10px;
       flex-flow: column nowrap;
       text-align: center;
       position: fixed;
