@@ -9,13 +9,18 @@ list-style: none;
     overflow: hidden;
     display: flex;
     flex-flow: row nowrap;
+    padding-top:20px;
+    
+
  @media only screen and (max-width: 600px) {
   padding:10px;
       flex-flow: column nowrap;
       text-align: center;
       position: fixed;
       right: 0;
-      background-color: #0d2022;
+      background-color: #ecedff;
+      border:1px solid #4f5488;
+      border-radius:10px;
       width:200px;
       transform: ${({hamburger})=>hamburger?'translateX(0)':'translateX(100%)'};
     
@@ -27,7 +32,9 @@ list-style: none;
       text-align: center;
       position: fixed;
       right: 0;
-      background-color: #0d2022;
+      border-radius:10px;
+      border:1px solid #4f5488;
+      background-color: #ecedff;
       width:200px;
       transform: ${({hamburger})=>hamburger?'translateX(0)':'translateX(100%)'};
     
@@ -47,7 +54,7 @@ function RightNav({hamburger}) {
                     <button><a href="#">EXPERIENCE</a></button>
                 </li>
                 <li>
-                    <button><a href="#">SOCIALS</a></button>
+                    <button className='resume'><a href="#">RESUME</a></button>
                 </li>
             
             </Ul>

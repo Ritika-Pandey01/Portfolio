@@ -1,23 +1,3 @@
-.bg {
-  animation:slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, rgb(19, 99, 223) 50%, rgb(71, 181, 255) 50%);
-  bottom:0;
-  left:-50%;
-  opacity:.5;
-  position:fixed;
-  right:-50%;
-  top:0;
-  z-index:-1;
-}
-
-.bg1 {
-  animation-direction:alternate-reverse;
-  animation-duration:4s;
-}
-
-.bg2 {
-  animation-duration:5s;
-}
 
 .content {
     display: flex;
@@ -27,52 +7,68 @@
     top:40%;
 }
 .flex-item-left {
-    background-color:transparent;
-    padding: 100px 40px;
+  
     flex: 50%;
-   
 
-    
-    
   }
-
-  #intro{
-
-    border: 1px solid;
-    border-radius: 10px;
-        padding: 10px;
-        box-shadow: 5px 10px;
-        margin-top: 40px;
-      
-  }
+.bg1{
+  z-index: -1;
+  position: absolute;
+  width: 300px;
+}
+.bg2{
+  z-index: -1;
+  position: absolute;
+  padding-top: 200px;
+ left: 960px;
+ width: 300px;
+}
+.intro{
+  border-radius: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-family: 'Dancing Script', cursive;
+  line-height: 60px;
+  background-color:white;
+}
   .flex-item-right {
     background-color: transparent;
-    padding: 10px;
-    margin: 8%;
-    
+    height: 100%;
+   
     flex: 50%;
     
   }
-  .imageP{
-    padding:40px 40px 0 40px;
-    background-color: rgba(223, 246, 255,0.1);
-    border-radius: 10px;
+  .front{
+    color: #635497;
   }
-  .imageP > img{
-    width: 80%;
+  .picture{
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    width: 300px;
+    margin-top:40px;
   }
-  
+
 
   @media (max-width: 600px) {
     .content {
       flex-direction: column;
     }
+    .bg2{
+      z-index: -1;
+      position: absolute;
+      padding-top: 300px;
+     left: 150px;
+     width: 300px;
+    }
+    .intro{
+      border-radius: 10px;
+      margin-left: 2%;
+      margin-right: 2%;
+      font-family: 'Dancing Script', cursive;
+      line-height: 60px;
+      background-color:transparent;
+    }
+    .intro1{
+      padding: 20px;
+    }
   }
-@keyframes slide {
-  0% {
-    transform:translateX(-25%);
-  }
-  100% {
-    transform:translateX(25%);
-  }
-}
