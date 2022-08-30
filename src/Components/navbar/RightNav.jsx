@@ -1,6 +1,7 @@
 import React from 'react'
 import "./navbar.css";
 import styled from "styled-components";
+
 const Ul=styled.ul`
 
 list-style: none;
@@ -40,6 +41,7 @@ list-style: none;
     
  }`;
 function RightNav({hamburger}) {
+
   return (
     <>
       <Ul hamburger={hamburger}>
@@ -54,7 +56,7 @@ function RightNav({hamburger}) {
                     <button><a href="#">EXPERIENCE</a></button>
                 </li>
                 <li>
-                    <button className='resume'><a href="#">RESUME</a></button>
+                    <button className='resume'><a href="https://drive.google.com/file/d/1ZSPc_4tME1mb1_9qD-uSV5rRdUDgiy7U/view?usp=sharing" download>RESUME</a></button>
                 </li>
             
             </Ul>

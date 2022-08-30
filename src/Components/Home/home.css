@@ -6,7 +6,7 @@
     text-align: center;
     top:40%;
     margin-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 100px !important;
 }
 .flex-item-left {
   
@@ -25,6 +25,7 @@
  left: 960px;
  width: 300px;
 }
+
 .intro{
   border-radius: 10px;
   margin-left: 20%;
@@ -42,6 +43,8 @@
   }
   .front{
     color: #635497;
+    display: inline;
+    font-family: 'Dancing Script', cursive;
   }
   .picture{
     border-top-left-radius: 50%;

@@ -3,6 +3,7 @@ import "./home.css";
 import bg1 from "../../assets/bg1.png"
 import bg2 from "../../assets/bg2.png"
 import photo from "../../assets/image.png"
+import Typical from "react-typical";
 function Home() {
   return (
     <>
@@ -15,7 +16,16 @@ function Home() {
   <div className='intro'>
     <h3>Hi! I'm Ritika</h3>
     </div>
-    <h3 className='intro1'>I am a <span className='front'>Frontend Developer </span></h3>
+    <h3 className='intro1'>I am a </h3>
+    <p className='front'>
+    <Typical
+      loop={Infinity}
+      wrapper="b"
+      steps={[
+        'Frontend Developer',2000,'Content Writer',2000,'Open Source Enthusiast',2000
+      ]}
+    />
+     </p>
     
   </div>
   <div className="flex-item-right">
