@@ -48,7 +48,7 @@ function RightNav({hamburger}) {
                     <button><a href="#">ABOUT</a></button>
                 </li>
                 <li>
-                    <button><a href="#">EDUCATION</a></button>
+                    <button><a href="#">PROJECTS</a></button>
                 </li>
                 <li>
                     <button><a href="#">EXPERIENCE</a></button>
