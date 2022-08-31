@@ -4,6 +4,7 @@ import bg1 from "../../assets/bg1.png"
 import bg2 from "../../assets/bg2.png"
 import photo from "../../assets/image.png"
 import Typical from "react-typical";
+
 function Home() {
   return (
     <>
@@ -22,7 +23,7 @@ function Home() {
       loop={Infinity}
       wrapper="b"
       steps={[
-        'Frontend Developer',2000,'Content Writer',2000,'Open Source Enthusiast',2000
+        'Frontend Developer',1000,'Content Writer',1000,'Open Source Enthusiast',1000
       ]}
     />
      </p>
