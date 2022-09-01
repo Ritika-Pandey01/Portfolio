@@ -1,7 +1,10 @@
 .about{
     background-color: #635497;
     padding: 20px;
-}
-.about h1{
+    display: flex;
     color: white;
+}
+
+.about .textSection{
+    flex: 50%;
 }
