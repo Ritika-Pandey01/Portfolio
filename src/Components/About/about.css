@@ -3,8 +3,24 @@
     padding: 20px;
     display: flex;
     color: white;
+    flex-direction: row;
 }
 
 .about .textSection{
     flex: 50%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+}
+.about .graphic{
+    flex: 50%;
+    
+}
+.about .graphic img{
+    width:70%;
+    padding:20px;
+    align-items: right;
+    margin-left: 80px;
+}
+@media (max-width: 600px) {
+    .about{flex-direction: column;}
 }
