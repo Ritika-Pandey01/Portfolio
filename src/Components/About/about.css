@@ -1,5 +1,5 @@
 .about{
-    background-color: #635497;
+    background-color: #8072b3;
     padding: 20px;
     display: flex;
     color: white;
@@ -9,11 +9,24 @@
 .about .textSection{
     flex: 50%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 200;
+    font-weight: 100;
+    font-size: 18px;
+    color: #e1e1ec;
+    text-align: justify;
 }
 .about .graphic{
     flex: 50%;
     
+}
+.about ul li{
+    list-style-type:circle;
+}
+.highlight{
+    font-weight: 700;
+    color: white;
+}
+.textSection h1{
+    color: white;
 }
 .about .graphic img{
     width:70%;

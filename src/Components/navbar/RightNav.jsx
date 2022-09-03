@@ -47,13 +47,13 @@ function RightNav({hamburger}) {
       <Ul hamburger={hamburger}>
                 
                 <li>
-                    <button><a href="#">ABOUT</a></button>
+                    <button><a href="/about">ABOUT</a></button>
                 </li>
                 <li>
-                    <button><a href="#">PROJECTS</a></button>
+                    <button><a href="/projects">PROJECTS</a></button>
                 </li>
                 <li>
-                    <button><a href="#">EXPERIENCE</a></button>
+                    <button><a href="/experience">EXPERIENCE</a></button>
                 </li>
                 <li>
                     <button className='resume'><a href="https://drive.google.com/file/d/1ZSPc_4tME1mb1_9qD-uSV5rRdUDgiy7U/view?usp=sharing" download>RESUME</a></button>

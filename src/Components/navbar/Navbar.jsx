@@ -8,7 +8,7 @@ function Navbar(){
     return(
         <>
             <nav>
-            <a href="#"><h1>Ritika Pandey</h1></a>
+            <a href="/" className="logo"><h1>Ritika Pandey</h1></a>
                 <Burger/>
 
                 
