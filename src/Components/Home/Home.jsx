@@ -32,7 +32,9 @@ function Home() {
   <div className="flex-item-right">
 
   <img className='bg2' src={bg2}/>
+  
   <img className="picture" src={photo}/>
+  
   </div>
 
 </div>

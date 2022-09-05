@@ -56,6 +56,9 @@ function RightNav({hamburger}) {
                     <button><a href="/experience">EXPERIENCE</a></button>
                 </li>
                 <li>
+                    <button><a href="/contact">CONTACT</a></button>
+                </li>
+                <li>
                     <button className='resume'><a href="https://drive.google.com/file/d/1ZSPc_4tME1mb1_9qD-uSV5rRdUDgiy7U/view?usp=sharing" download>RESUME</a></button>
                 </li>
             

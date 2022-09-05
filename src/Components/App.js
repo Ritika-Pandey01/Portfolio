@@ -6,6 +6,7 @@ import Error from "./Error/Error";
 import {BrowserRouter as Router, Routes,Route} from "react-router-dom";
 import Projects from "./Projects/Projects";
 import Experience from "./Experience/Experience";
+import Contact from "./Contact/Contact";
 function App() {
   return (
     <Router>
@@ -16,6 +17,7 @@ function App() {
       <Route path="/about" element={<About/>}/>
       <Route path="/projects" element={<Projects/>}/>
       <Route path="/experience" element={<Experience/>}/>
+      <Route path="/contact" element={<Contact/>}/>
       <Route path="*" element={<Error/>}/>
 
       </Routes>
