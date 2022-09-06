@@ -1,0 +1,24 @@
+h1{
+    text-align: left;
+    padding-left: 20px;
+}
+.Intern1{
+    padding: 40px;
+    max-width: 400px;
+    border: 4px double black;
+    border-radius: 50px;
+    margin: 20px;
+    flex:50%;
+}
+.Intern2{
+    padding: 40px;
+    max-width: 400px;
+    border: 4px double black;
+    border-radius: 50px;
+    margin: 20px;
+    text-align: left;
+    flex:50%;
+}
+.experience{
+    display: flex;
+}
