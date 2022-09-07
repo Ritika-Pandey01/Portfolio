@@ -1,24 +1,46 @@
-h1{
-    text-align: left;
-    padding-left: 20px;
-}
-.Intern1{
-    padding: 40px;
-    max-width: 400px;
-    border: 4px double black;
-    border-radius: 50px;
-    margin: 20px;
-    flex:50%;
-}
-.Intern2{
-    padding: 40px;
-    max-width: 400px;
-    border: 4px double black;
-    border-radius: 50px;
-    margin: 20px;
-    text-align: left;
-    flex:50%;
+
+.bodyExp h1{
+    
+    padding-bottom: 30px;
+    margin:0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
 }
 .experience{
-    display: flex;
+    width:70%;
+    height: auto;
+    position: relative;
+    margin: auto;
+}
+.experience ul{
+    list-style: none;
+}
+.experience::after{
+    position: absolute;
+    content: ' ';
+    width: 2px;
+    height: 100%;
+    background-image: linear-gradient(to bottom,rgb(249, 249, 249),rgb(1,0.9,0.9));
+}
+.experience ul li{
+    width: 50%;
+    height: auto;
+    padding: 15px 20px;
+    background-color: white;
+    box-shadow: 1px 1px 25px rgba(91, 58, 122, 0.155);
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.experience ul li:nth-child(odd){
+    float: left;
+    clear: right;
+}
+.experience ul li:nth-child(even){
+    float: right;
+    clear: left;
+}
+@media (max-width: 600px) {
+    .experience{
+        flex-direction: column;
+    }
 }
