@@ -5,10 +5,8 @@ nav{
     position: sticky;
     padding: 10px;
     justify-content:space-between;
-   
     
     display: flex;
-    
    
 }
 nav a{

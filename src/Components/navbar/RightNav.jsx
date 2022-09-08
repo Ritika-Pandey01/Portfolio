@@ -14,7 +14,7 @@ list-style: none;
     
 
  @media only screen and (max-width: 600px) {
-  padding:10px;
+  padding:20px;
       flex-flow: column nowrap;
       text-align: center;
       position: fixed;
@@ -26,9 +26,9 @@ list-style: none;
       transform: ${({hamburger})=>hamburger?'translateX(0)':'translateX(100%)'};
     
  }
- @media only screen and (max-width: 760px) {
+ @media only screen and (max-width: 768px) {
     top:40px;
-      padding:10px;
+      padding:20px;
       flex-flow: column nowrap;
       text-align: center;
       position: fixed;

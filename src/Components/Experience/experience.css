@@ -5,22 +5,20 @@
     margin:0;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 1px;
+    
 }
 .experience{
     width:70%;
     height: auto;
-    position: relative;
+    
     margin: auto;
 }
 .experience ul{
     list-style: none;
 }
-.experience::after{
-    position: absolute;
-    content: ' ';
-    width: 2px;
-    height: 100%;
-    background-image: linear-gradient(to bottom,rgb(249, 249, 249),rgb(1,0.9,0.9));
+
+.experience ul li .title{
+    color: #4f5488;
 }
 .experience ul li{
     width: 50%;
@@ -31,16 +29,5 @@
     border-radius: 10px;
     margin-bottom: 30px;
 }
-.experience ul li:nth-child(odd){
-    float: left;
-    clear: right;
-}
-.experience ul li:nth-child(even){
-    float: right;
-    clear: left;
-}
-@media (max-width: 600px) {
-    .experience{
-        flex-direction: column;
-    }
-}
+
+
