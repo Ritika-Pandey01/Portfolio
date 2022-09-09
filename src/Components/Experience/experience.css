@@ -7,27 +7,24 @@
     letter-spacing: 1px;
     
 }
-.experience{
-    width:70%;
-    height: auto;
-    
-    margin: auto;
-}
+
 .experience ul{
     list-style: none;
+    margin-left: 10%;
 }
 
 .experience ul li .title{
     color: #4f5488;
+    font-weight: 700;
 }
 .experience ul li{
-    width: 50%;
+    width: 80%;
     height: auto;
     padding: 15px 20px;
-    background-color: white;
-    box-shadow: 1px 1px 25px rgba(91, 58, 122, 0.155);
+    background-image: linear-gradient(to right top, #7980f7, #a19efa, #c3bdfc, #e2defe, #ffffff);    box-shadow: 1px 1px 25px rgba(91, 58, 122, 0.155);
     border-radius: 10px;
     margin-bottom: 30px;
+    
 }
 
 
