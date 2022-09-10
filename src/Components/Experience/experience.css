@@ -1,30 +1,101 @@
 
 .bodyExp h1{
     
-    padding-bottom: 30px;
+    padding:30px;
     margin:0;
+    padding-bottom: 10px;
+    background-color: #4f54888c;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     letter-spacing: 1px;
+    color: white;
+    text-align: center;
     
+}
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+.bodyExp{
+    background-image: url("../../assets/bgImg.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding-bottom: 5%;
+    background-position: center;
 }
 
 .experience ul{
     list-style: none;
-    margin-left: 10%;
+    margin-left: 20%;
 }
 
 .experience ul li .title{
     color: #4f5488;
-    font-weight: 700;
+        
 }
 .experience ul li{
-    width: 80%;
+    width: 70%;
     height: auto;
-    padding: 15px 20px;
-    background-image: linear-gradient(to right top, #7980f7, #a19efa, #c3bdfc, #e2defe, #ffffff);    box-shadow: 1px 1px 25px rgba(91, 58, 122, 0.155);
+    padding: 15px 20px 30px 20px;
     border-radius: 10px;
     margin-bottom: 30px;
+    background-color: white;
     
 }
+.date{
+    font-weight: 700 !important;
+    font-size: 14px;
+    background-color: rgba(229, 203, 253, 0.56);
+    padding: 10px;
+    border-radius: 10px;
+}
+.volunteer h1{
+    color: white;
+    background-color: #4f5488a8;
+    padding-top: 10px;
+    
+    text-align: center;
+}
+.v{
+    margin: auto;
+    width: 30%;
+    align-items: center;
+}
+.containerVol{
+    display: flex;
+    padding-top: 20px;
+    padding: 20px;
+}
 
+.wicys{
+    flex: 50%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 30px;
 
+    
+}
+.null{
+    flex:50%;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 30px;
+}
+@media (max-width: 600px) {
+    .experience ul li{
+        width: 100%;
+        
+}
+.containerVol{
+    flex-direction: column;
+}
+
+.experience ul{
+    margin: 40px;
+    padding: 0;
+}
+}
