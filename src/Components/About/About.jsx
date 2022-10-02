@@ -16,9 +16,13 @@ function About() {
       <p>I also enjoy working in communities and am very  active on tech twitter. I am a part of WiCYs, EddieHub and have also been an active volunteer at Null:the open source community.Apart from this I have been a speaker in one of the talk series by Infosec Girls.</p>
       <p>Few technologies I've been working on:</p>
       <ul>
+        <li>HTML</li>
+        <li>CSS</li>
         <li>React</li>
+        
         <li>Express JS</li>
         <li>Node JS</li>
+        <li>HTML Email</li>
       </ul>
       </div>
       <div className="graphic">

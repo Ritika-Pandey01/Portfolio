@@ -28,7 +28,10 @@
     flex: 50%;
     
 }
-
+ul li{
+    display: inline;
+    padding: 10px;
+}
 .about ul li{
     list-style-type:none;
   
